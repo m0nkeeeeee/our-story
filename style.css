@@ -133,3 +133,24 @@ color: #B85C7A;
 
     margin:0 auto;
 }
+
+.page-title{
+    position:fixed;
+
+    top:20px;
+    left:50%;
+
+    transform:translateX(-50%);
+
+    font-family:'Damion', cursive;
+
+    font-size:55px;
+
+    color:#D46A92;
+
+    text-shadow:2px 2px 6px rgba(255,255,255,.8);
+
+    z-index:9999;
+
+    user-select:none;
+}
